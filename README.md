@@ -1,4 +1,4 @@
-# Movie Booking Platform (Version 1.3.3)
+# Movie Booking Platform 
 
 A comprehensive movie ticket booking system built with Spring Boot demonstrating modular monolith architecture for both B2B (theatre partners) and B2C (end customers) clients.
 
