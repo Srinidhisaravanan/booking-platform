@@ -1,0 +1,24 @@
+spring:
+  datasource:
+    url: jdbc:h2:mem:moviedb
+    username: sa
+    password: 
+    driver-class-name: org.h2.Driver
+  
+  h2:
+    console:
+      enabled: true
+  
+  jpa:
+    hibernate:
+      ddl-auto: create-drop
+    show-sql: true
+
+server:
+  port: 8080
+
+# Application Configuration
+app:
+  discounts:
+    third-ticket-discount: 0.50
+    afternoon-show-discount: 0.20
